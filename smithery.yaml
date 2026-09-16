@@ -1,3 +1,9 @@
+name: camelot-web-tools-mcp
+displayName: Camelot Web Tools
+description: 79 privacy-first, local-browser client work, finance, business, document production, and developer automation tools.
+icon: https://www.camelotwebtools.com/avatar.png
+homepage: https://www.camelotwebtools.com
+repository: https://github.com/kingwarthur/camelotwebtools-mcp
 startCommand:
   type: stdio
   config:
