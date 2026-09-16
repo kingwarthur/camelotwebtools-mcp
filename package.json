@@ -1,0 +1,46 @@
+{
+  "name": "camelotwebtools-mcp",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) server for Camelot Web Tools. 79 deterministic document, legal, and financial utilities for Claude Desktop, Cursor, and Windsurf.",
+  "type": "module",
+  "main": "./bin/mcp-server.js",
+  "bin": {
+    "camelotwebtools-mcp": "./bin/mcp-server.js",
+    "camelot-mcp": "./bin/mcp-server.js"
+  },
+  "files": [
+    "bin",
+    ".cursorrules",
+    "CLAUDE.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "camelotwebtools",
+    "cursorrules",
+    "claude",
+    "cursor",
+    "windsurf",
+    "invoicing",
+    "contracts",
+    "pdf",
+    "tools",
+    "camelot"
+  ],
+  "author": "Camelot Web Tools <William@camelotwebtools.com>",
+  "license": "MIT",
+  "homepage": "https://www.camelotwebtools.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingwarthur/camelotwebtools-mcp.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node ./bin/mcp-server.js",
+    "test": "node --check ./bin/mcp-server.js"
+  }
+}
