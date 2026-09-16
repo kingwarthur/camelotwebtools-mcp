@@ -132,7 +132,10 @@ If your client supports remote HTTP JSON-RPC 2.0 endpoints:
 ## Free Tier vs. Pro Licensing
 
 * **Free Tier:** 5 free document operations per day per client. Free forever.
-* **Pro ($19/mo) & Lifetime ($249 one-time):** Unlimited operations and unwatermarked vector PDF exports.
+* **Pro Monthly:** $19 / month (unlimited operations and unwatermarked vector PDF exports)
+* **Pro Annual:** $149 / year ($12.42/mo, save 35% with annual billing)
+* **Lifetime:** $249 one-time (permanent single-user license, zero recurring fees)
+
 * **To unlock unlimited calls via MCP:** Pass your license key in the environment or HTTP Authorization header:
 
 ```bash

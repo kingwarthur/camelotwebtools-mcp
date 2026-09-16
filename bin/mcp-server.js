@@ -29,7 +29,7 @@ if (process.argv.includes('--help') || process.argv.includes('-h')) {
     '  npx -y camelotwebtools-mcp',
     '',
     'Environment Variables:',
-    '  CAMELOT_LICENSE_KEY   Pass your Pro or Lifetime license key for unlimited operations',
+    '  CAMELOT_LICENSE_KEY   Pass your Pro ($19/mo, $149/yr) or Lifetime ($249) key for unlimited operations',
     '  CAMELOT_MCP_ENDPOINT  Override the live RPC endpoint (defaults to production)',
     '',
     'Documentation and Tools List: https://www.camelotwebtools.com/llms.txt'
