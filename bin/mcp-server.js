@@ -17,7 +17,7 @@ const LICENSE_KEY = process.env.CAMELOT_LICENSE_KEY || '';
 const SESSION_ID = process.env.CAMELOT_SESSION_ID || ('cli_' + Math.random().toString(36).slice(2, 11));
 
 if (process.argv.includes('--version') || process.argv.includes('-v')) {
-  console.log('camelotwebtools-mcp v1.0.0');
+  console.log('camelotwebtools-mcp v1.0.1');
   process.exit(0);
 }
 

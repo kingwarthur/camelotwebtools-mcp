@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "Official MCP server for Camelot Web Tools. 79 deterministic tools for invoices, contracts, PDF form filling, finance math, and developer utilities. Local-first: no AI, no uploads, no tracking.",
+  "name": "io.github.kingwarthur/camelotwebtools-mcp",
+  "packages": [
+    {
+      "identifier": "camelotwebtools-mcp",
+      "registryType": "npm",
+      "transport": {
+        "type": "stdio"
+      },
+      "version": "1.0.1"
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/kingwarthur/camelotwebtools-mcp"
+  },
+  "version": "1.0.1"
+}

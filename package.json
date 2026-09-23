@@ -1,6 +1,7 @@
 {
   "name": "camelotwebtools-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.kingwarthur/camelotwebtools-mcp",
   "description": "Official Model Context Protocol (MCP) server for Camelot Web Tools. 79 deterministic document, legal, and financial utilities for Claude Desktop, Cursor, and Windsurf.",
   "type": "module",
   "main": "./bin/mcp-server.js",
@@ -13,7 +14,8 @@
     ".cursorrules",
     "CLAUDE.md",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "server.json"
   ],
   "keywords": [
     "mcp",
