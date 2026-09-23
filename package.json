@@ -6,8 +6,8 @@
   "type": "module",
   "main": "./bin/mcp-server.js",
   "bin": {
-    "camelotwebtools-mcp": "./bin/mcp-server.js",
-    "camelot-mcp": "./bin/mcp-server.js"
+    "camelotwebtools-mcp": "bin/mcp-server.js",
+    "camelot-mcp": "bin/mcp-server.js"
   },
   "files": [
     "bin",
@@ -36,7 +36,7 @@
   "homepage": "https://www.camelotwebtools.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kingwarthur/camelotwebtools-mcp.git"
+    "url": "git+https://github.com/kingwarthur/camelotwebtools-mcp.git"
   },
   "engines": {
     "node": ">=18.0.0"
